@@ -81,7 +81,7 @@ body {
   align-items: center;
   padding: 2rem;
   padding-top: 5rem;
-  background-image: url("/imgs/watercolor-chinese-style-illustration_23-2149711052.jpg.avif"); /* Add your image path here */
+  background-image: url("./imgs/watercolor-chinese-style-illustration_23-2149711052.jpg.avif"); /* Add your image path here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -368,7 +368,7 @@ body {
   display: flex;
   align-items: center;
   padding: 4rem 2rem;
-  background-image: url("/imgs/watercolor-chinese-style-illustration_23-2149711052.jpg.avif");
+  background-image: url("./imgs/watercolor-chinese-style-illustration_23-2149711052.jpg.avif");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
