@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - GAO Capital</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <img src="/imgs/logo.png" alt="GAO Capital Logo" class="logo" />
+      </div>
+      <div class="nav-links">
+        <a href="index.html#about">About Us</a>
+        <a href="team.html">Team</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html" class="login-btn">Contact Us</a>
+      </div>
+    </nav>
+
+    <section class="contact">
+      <div class="form-container">
+        <h2>Get in Touch</h2>
+        <form
+          action="mailto:douglasaly2@icloud.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <input type="email" name="email" required />
+            <label class="floating-label">Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" name="name" required />
+            <label class="floating-label">Name</label>
+          </div>
+          <div class="form-group">
+            <label>What interests you?</label>
+            <div class="radio-group">
+              <div class="radio-option">
+                <input
+                  type="radio"
+                  id="funds"
+                  name="interest"
+                  value="funds"
+                  required
+                />
+                <label for="funds">Investment Funds</label>
+              </div>
+              <div class="radio-option">
+                <input
+                  type="radio"
+                  id="custom"
+                  name="interest"
+                  value="custom"
+                />
+                <label for="custom">Custom Solutions</label>
+              </div>
+              <div class="radio-option">
+                <input
+                  type="radio"
+                  id="distribution"
+                  name="interest"
+                  value="distribution"
+                />
+                <label for="distribution">Distribution</label>
+              </div>
+              <div class="radio-option">
+                <input
+                  type="radio"
+                  id="careers"
+                  name="interest"
+                  value="careers"
+                />
+                <label for="careers">Careers</label>
+              </div>
+              <div class="radio-option">
+                <input
+                  type="radio"
+                  id="others"
+                  name="interest"
+                  value="others"
+                />
+                <label for="others">Other</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" required rows="4"></textarea>
+            <label class="floating-label">Your Message</label>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="submit-btn">Send Message</button>
+            <button type="reset" class="clear-btn">Clear</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-header">
+          <img src="/imgs/logo.png" alt="GAO Capital Logo" class="logo" />
+          <span>✉</span>
+        </div>
+        <div class="footer-info">
+          <p>
+            GAO Capital holds a Capital Markets Services (CMS) License and is
+            regulated by the Monetary Authority of Singapore (MAS).
+          </p>
+          <p>1 Neil Road</p>
+          <p>#02-03</p>
+          <p>Singapore 088804</p>
+          <p>info@gao-cap.com</p>
+          <p>© 2025 GAO Capital. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
